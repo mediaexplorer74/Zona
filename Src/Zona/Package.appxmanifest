@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Package xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" xmlns:uap2="http://schemas.microsoft.com/appx/manifest/uap/windows10/2" xmlns:uap3="http://schemas.microsoft.com/appx/manifest/uap/windows10/3" xmlns:iot="http://schemas.microsoft.com/appx/manifest/iot/windows10" xmlns:mobile="http://schemas.microsoft.com/appx/manifest/mobile/windows10" IgnorableNamespaces="uap mp uap2 uap3 iot mobile">
-  <Identity Name="ME.ZonaV1" Publisher="CN=Admin" Version="1.0.0.0" />
+  <Identity Name="ME.ZonaV1" Publisher="CN=Admin" Version="1.0.1.0" />
   <mp:PhoneIdentity PhoneProductId="f025b918-50ac-4fc6-a33b-70890b760001" PhonePublisherId="0000a301-a331-5501-0001-089000000001" />
   <Properties>
-    <DisplayName>Zona v1</DisplayName>
+    <DisplayName>Zona v1.0.1</DisplayName>
     <PublisherDisplayName>mediaexplorer</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
@@ -14,10 +14,10 @@
     <Resource Language="x-generate" />
   </Resources>
   <Applications>
-    <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="FourPDAClientApp.App">
-      <uap:VisualElements DisplayName="Zona" Square150x150Logo="Assets\Square150x150Logo.png" Square44x44Logo="Assets\Square44x44Logo.png" Description="Simple UWP application to display Zona web site on &quot;winphone&quot; with Windows 10 Mobile" BackgroundColor="purple">
+    <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="Zona.App">
+      <uap:VisualElements DisplayName="Zona 1.0.1" Square150x150Logo="Assets\Square150x150Logo.png" Square44x44Logo="Assets\Square44x44Logo.png" Description="Simple UWP application to display Zona web site on &quot;winphone&quot; with Windows 10 Mobile" BackgroundColor="purple">
         <uap:LockScreen Notification="badge" BadgeLogo="Assets\BadgeLogo.png" />
-        <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png" ShortName="4PDAClient" Square310x310Logo="Assets\LargeTile.png" Square71x71Logo="Assets\SmallTile.png">
+        <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png" ShortName="Zona" Square310x310Logo="Assets\LargeTile.png" Square71x71Logo="Assets\SmallTile.png">
           <uap:ShowNameOnTiles>
             <uap:ShowOn Tile="square150x150Logo" />
             <uap:ShowOn Tile="wide310x150Logo" />

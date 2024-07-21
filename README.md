@@ -1,4 +1,4 @@
-# Zona v1.0-alpha
+# Zona v1.0.1
 ![](Images/logo.png)
 
 My attempt to "recover" VPN-related Zona uwp app by simplest PWA dev. My main goal: no VPN! :)
@@ -10,16 +10,21 @@ Simplest UWP pseudo-PWA app to display Zona web site on "winphone" with Windows 
 ![](Images/shot01.png)
 ![](Images/shot02.png)
 ![](Images/shot03.png)
+![](Images/shot04.png)
+![](Images/shot05.png)
 
 ## Tech/dev details
 - Platforms: UWP
-- Targets: ARM
-- OS: Windows 10 (Mobile)
+- Targets: x64, ARM
+- OS: Windows 10/11, Windows 10 Mobile
 - Min. Win. os build: 10240 (Hello, Project Astoria!)
 
 ## Status
-- Draft. Prototype / Alpha version.
 - "Web parsing" not realized yet ... so, no push notifications, etc.
+- Liiiiiiiiiiiiiiiiittle code "optimization" ("refactoring"/"truncating").
+
+## TODO
+- Explore "heavy" Zone client such as [FS](https://github.com/fsclient/fs-clone) project.
 
 ## Credits / Thanks
 - [jetspiking](https://github.com/jetspiking) for very 
